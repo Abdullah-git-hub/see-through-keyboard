@@ -4,10 +4,7 @@ import mediapipe as mp
 from time import sleep
 import pyautogui # type: ignore
 
-capture = cv.VideoCapture(0)
-
-capture.set(3, 1280)
-capture.set(4, 720)
+capture = cv.VideoCa
 
 mpDraw = mp.solutions.drawing_utils
 mpHands = mp.solutions.hands
